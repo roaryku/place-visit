@@ -1,0 +1,61 @@
+body{
+    background-image: url('https://plus.unsplash.com/premium_photo-1661901149295-0b5619e24c2f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBsYWNlcyUyMGZvciUyMHZpc2l0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #EAEAEA;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 40px;  
+}
+.input-field{
+    display: flex;
+}
+#search{
+    flex: 1;
+    padding: 20px;
+    border: none;
+    color: #252A34;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.image{
+    width: 400px;
+    height: 500px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgba(255,255,255,0.4);
+}
+.places{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 10px;
+    padding: 20px;
+}
+h3{
+    position: absolute;
+    color: #EAEAEA;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+p{
+    background-color: rgba(255,255,255,2);
+    padding: 10px; 
+    width: 380px;
+}
+.par{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #252A34;
+}
