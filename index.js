@@ -7,7 +7,7 @@ inputField.addEventListener('keyup', (e) => {
      divs.forEach(item => {
             item.querySelector('h3').textContent.toLowerCase().includes(word) ||
             item.querySelector('p').textContent.toLowerCase().includes(word) 
-            ? (item.style.display = 'block') 
+            ? (item.style.display = 'flex') 
             : (item.style.display = 'none')
             
      })
